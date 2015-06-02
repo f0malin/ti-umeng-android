@@ -1,0 +1,18 @@
+%define lookup-function-name lookupGeneratedInit
+%define class-name UmengBindings
+%{
+
+#include <string.h>
+#include <v8.h>
+#include <KrollBindings.h>
+
+#include "com.biddecor.android.umeng.UmengModule.h"
+#include "com.biddecor.android.umeng.ExampleProxy.h"
+
+
+%}
+struct titanium::bindings::BindEntry;
+%%
+com.biddecor.android.umeng.UmengModule, ::com::biddecor::android::umeng::UmengModule::bindProxy, ::com::biddecor::android::umeng::UmengModule::dispose
+com.biddecor.android.umeng.ExampleProxy, ::com::biddecor::android::umeng::umeng::ExampleProxy::bindProxy, ::com::biddecor::android::umeng::umeng::ExampleProxy::dispose
+%%

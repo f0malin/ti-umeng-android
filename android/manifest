@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: armeabi armeabi-v7a x86
+description: umeng
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2015 by Your Company
+
+# these should not be edited
+name: umeng
+moduleid: com.biddecor.android.umeng
+guid: 5a218b17-e69f-49db-a930-2c5d4954be60
+platform: android
+minsdk: 3.5.1.GA
