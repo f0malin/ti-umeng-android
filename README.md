@@ -4,13 +4,13 @@ This is a titanium module for Umeng(www.umeng.com) analytics service, on android
 
 ## Usage
 
-<pre>
+```bash
 git clone https://github.com/formalin14/ti-umeng-android.git
 cd ti-umeng-android
 cd android
 ant
 unzip -o dist/com.biddecor.android.umeng-android-1.0.0.zip -d ~/Library/Application\ Support/Titanium/
-</pre>
+```
 
 Then add module in your tiapp.xml with studio or edit directly :
 
